@@ -1,7 +1,7 @@
 const fs = require('fs');
 const util = require('util');
 const EventEmitter = require('events');
-const fuse = require('fuse-bindings');
+const fuse = require('node-fuse-bindings');
 
 const Mode = require('./Mode');
 
